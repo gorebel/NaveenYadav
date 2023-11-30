@@ -14,7 +14,7 @@ window.onscroll = () =>{
 function sendEmail() {
     Email.send({
         SecureToken : "7c5adaf0-d746-4e3e-8e0d-781fd9aca7ce",
-        To : 'sumit1708@outlook.com',
+        To : 'naveenyuk97@gmail.com',
         From : 'sumit1708@outlook.com',
         Subject : document.getElementById("name").value + " - Contact form Enquiry",
         Body : "Name: " + document.getElementById("name").value 
